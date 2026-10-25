@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102e32">
+<title>Turminha da Reciclagem</title>
+<link rel="stylesheet" href="style.css"></head><body><main class="shell"><header class="mast"><div class="brand"><div class="brand-icon">♻️</div><div><h1>Turminha da Reciclagem</h1><p>Uma aventura pequena, uma cidade mais limpa 🌱</p></div></div><div class="audio"><span>♪ Música</span><button id="musicBtn" type="button" aria-label="Ligar ou desligar música">Ligada</button><label for="volume" aria-label="Volume da música">♫</label><input id="volume" type="range" min="0" max="100" value="28"></div></header>
+<section class="gameframe" aria-label="Jogo de reciclagem"><canvas id="game" width="960" height="640" aria-label="Área do jogo"></canvas><div class="hud" id="hud" hidden><div class="pill">📍 <span id="stageName">Quarto</span></div><div class="pill">⭐ <strong id="score">0</strong></div><div class="pill">🧺 <span id="progress">0/5</span></div><div class="spacer"></div><div class="pill">❤️ <span class="lives" id="lives">♥ ♥</span></div></div><div class="phasebar" id="phasebar" hidden><i id="phasefill"></i></div><div class="hint" id="hint" hidden>WASD mover &nbsp;·&nbsp; E interagir</div><div class="item-notice" id="itemNotice" hidden><span class="item-icon" id="itemIcon">♻️</span><span class="item-copy"><small>NA SUA MÃO</small><strong id="itemName">Resíduo</strong></span></div><div class="toast" id="toast"></div><div class="cover" id="cover"><div class="card"><span class="badge" id="badge">MISSÃO VERDE • 3 FASES</span><h2 id="title">A cidade precisa<br>da sua ajuda!</h2><p id="desc">Junte os resíduos e leve cada um para a lixeira da cor certa. Vamos deixar tudo brilhando? ✨</p><div class="swatches" id="swatches"></div><p id="instructions">⌨️ <b>W A S D</b> para andar &nbsp; · &nbsp; <b>SHIFT</b> correr &nbsp; · &nbsp; <b>E</b> pegar e separar<br>Chegue pertinho e aperte E. Cada fase começa com duas vidas!</p><div class="actions"><button class="cta" id="startBtn">Começar a aventura →</button><button class="secondary" id="secondaryBtn" hidden>Voltar ao início</button></div></div></div></section><footer class="help"><span class="keys">⌨️ <b>W A S D</b> mover &nbsp;·&nbsp; <b>SHIFT</b> correr &nbsp;·&nbsp; <b>E</b> pegar / separar &nbsp;·&nbsp; <b>ESC</b> pausar</span><span>Separar direitinho é um superpoder! 🍃</span></footer></main>
+<script src="script.js" defer></script></body></html>
+
+
+
+
+
+
+
+
+
+
