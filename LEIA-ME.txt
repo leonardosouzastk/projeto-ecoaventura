@@ -1,4 +1,4 @@
-TURMINHA DA RECICLAGEM
+ECOAVENTURA
 
 Projeto em arquivos separados: mantenha index.html, style.css e script.js juntos na mesma pasta. Abra index.html em um navegador atualizado.
 
